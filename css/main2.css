@@ -1,0 +1,43 @@
+*{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    
+}
+body{
+	background: rgba(240, 191, 182, 0.993) !important;
+}
+.button{
+	width: 75px;
+	height: 75px;
+	padding: 10%;
+	margin: 0 1px;
+	cursor: pointer;
+	background: rgba(255,255,255,0.5);
+	border: 0;
+}
+.main{
+	padding: 20px 0;
+	position: relative;
+}
+#board{
+	position: relative;
+	border-radius: 2px;
+	padding: 30px;
+	width: 600px;
+	background: rgba(255,255,255,0.4);
+	margin-left: auto;
+	margin-right: auto;
+}
+.icon{
+	padding: 0 5px;
+}
+#demo3{
+	
+    top: 0;
+    left: 55px;
+    width: 100%;
+    font-weight: 600;
+}
+
+

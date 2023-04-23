@@ -1,0 +1,103 @@
+<!-- <html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golden Hunt</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link rel="icon" href="images/favicon.png">
+
+</head>
+
+<body>
+    <div class="main">
+
+        <div class="container">
+
+
+            <div id="board">
+                <div id="ui" class="col-sm-12 col-md-12 col-lg-12">
+                    <h1>Golden Hunt Game</h1>
+                    <form action="dash.html" method="get">
+                        Email
+                        <input for="email" type="email" name="" placeholder="Enter email" required>
+                        <br>
+                        Password
+                        <input for="password" type="text" name="" placeholder="Enter password" required>
+                   
+                    <button id="start-button" class="btn-btn-info">SUBMIT</button>
+                </form>
+                </div>
+            </div>
+        </div>
+        <script>
+            function login() {
+              // Get the email and password values from the form
+              var email = document.getElementById("email").value;
+              var password = document.getElementById("password").value;
+      
+              // Check if the email and password match
+              if (email == "user@example.com" && password == "password123") {
+                // Redirect to the desired page
+                window.location.href = "dash.html";
+              } else {
+                // Display an error message
+                alert("Invalid email or password.");
+              }
+            }
+          </script>
+
+</body>
+
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golden Hunt</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link rel="icon" href="images/favicon.png">
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <div id="board">
+                <div id="ui" class="col-sm-12 col-md-12 col-lg-12">
+                    <h1>Golden Hunt Game</h1>
+                    <form action="dash.html" method="get">
+                        Email
+                        <input id="email" name="email" type="email" placeholder="Enter email" required>
+                        <br>
+                        Password
+                        <input id="password" name="password" type="password" placeholder="Enter password" required>
+                        <br>
+                        <button id="start-button" class="btn btn-info" type="button" onclick="login()">SUBMIT</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <script>
+            function login() {
+                // Get the email and password values from the form
+                var email = document.getElementById("email").value;
+                var password = document.getElementById("password").value;
+
+                // Check if the email and password match
+                if (email == "aditichd2002@gmail.com" && password == "password123") {
+                    // Redirect to the desired page
+                    window.location.href = "dash.html";
+                } else {
+                    // Display an error message
+                    alert("Invalid email or password.");
+                }
+            }
+        </script>
+    </div>
+</body>
+</html>

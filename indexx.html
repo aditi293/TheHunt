@@ -10,44 +10,53 @@
   <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
   <link rel="icon" href="images/favicon.png">
 </head>
+
 <body>
 
-<div class="main">
+  <div class="main">
 
-<div class="container">
-	
+    <div class="container">
 
-	<div id="board">
-		<div id="ui" class="col-sm-12 col-md-12 col-lg-12">
-		<h1>Golden Hunt Game</h1>
-			<label><img class="icon" src="lifeicon.png" alt="Life" height="35px" /><progress id="health" value="0" max="10"></progress></label><br/>
-			<label id="score-div"><img class="icon" src="scoreicon.png" alt="Score" height="35px" /><p id="demo3">0</p></label>
-            <p id="demo4"><strong>Write your details:</strong></p>
-            
-				<form>
-                  Full name
-                  <input type="text" name="" placeholder="Enter name">
-                  <br>
-                  Email
-                  <input type="text" name="" placeholder="Enter email">
-                </form>
-			
 
-			<p id="demo4"><strong>How to play:</strong></p>
-			<ul id="rules">
-				<li>Answer each question given</li>
-				<li>for each correct answer you'll win 10 points</li>
-			</ul>
+      <div id="board">
+        <div id="ui" class="col-sm-12 col-md-12 col-lg-12">
+          <h1>Golden Hunt Game</h1>
+          <label><img class="icon" src="lifeicon.png" alt="Life" height="35px" /><progress id="health" value="0"
+              max="10"></progress></label><br />
+          <label id="score-div"><img class="icon" src="scoreicon.png" alt="Score" height="35px" />
+            <p id="demo3">0</p>
+          </label>
+          <p id="demo4"><strong>Write your details:</strong></p>
 
-			<button id="start-button" class="btn-block" ><a href="start.html">Start Game</a></button>
-		</div>
-				
-		
-	</div>
-	
-</div>
+          <form action="start.html" method="get">
+           
+            Full name
+            <br>
+            <input type="text" name="" placeholder="Enter name" required>
+            <br>
+            Email
+            <br>
+            <input type="email" name="" placeholder="Enter email" required>
+            <br>
+        
 
-</div>
+
+          <p id="demo4"><strong>How to play:</strong></p>
+          <ul id="rules">
+            <li>Answer each question given</li>
+            <li>for each correct answer you'll win 10 points</li>
+          </ul>
+
+          <button id="start-button" class="btn-block">Start Game</button>
+        </form>
+        </div>
+        <!-- <a href="start.html"></a> -->
+
+      </div>
+
+    </div>
+
+  </div>
 </body>
 <script src="js/bootstrap.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>

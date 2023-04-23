@@ -38,7 +38,7 @@ const questionsList = [
   "Q1: You are driving on the road and it has come to an end. You can go left or right. Where would you like to go?",
   "Q2:Then you come across a river. Would you like to swim or walk in the river?",
   "Q3: You come across a long bridge. It looks shaky. would you like to head back or cross it?",
-  "Q4: You crossed the bridge and met a crazy stranger. Do you want to talk to him?",
+  "Q4: You headed back from the bridge and met a crazy stranger. Do you want to talk to him?",
   "Q5: The stranger told you about a cave in woods. Would you head to the woods to find cave?",
   "Q6:you found the cave. Do you want to go inside it or return?",
 ];
@@ -62,7 +62,7 @@ const questions = [
   },
   {
     question:
-      "You crossed the bridge and met a crazy stranger. Do you want to talk to him?",
+      "You headed back from the bridge and met a crazy stranger. Do you want to talk to him?",
     answer: "YES",
   },
   {
